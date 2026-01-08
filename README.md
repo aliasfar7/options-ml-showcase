@@ -16,16 +16,16 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This repository showcases a comprehensive quantitative trading system I built over 12+ months, focusing on **machine learning engineering practices** and **production-ready architecture** rather than proprietary alpha signals. The system demonstrates enterprise-grade ML workflows with proper separation of concerns, walk-forward validation, and realistic execution modeling.
 
 ### System Highlights
 
-- 📈 **Sharpe Ratio: 0.78** (realistic demonstration with transaction costs)
-- 🤖 **Deep RL Training**: PPO-based agents with custom Gym environments
-- ⚡ **Microsecond Execution Modeling**: Realistic order book simulation with spread/slippage/fees
-- 🔄 **Full Pipeline**: Polygon.io data → Feature engineering → Model training → Live paper trading via Alpaca
+- **Sharpe Ratio: 0.78** (realistic demonstration with transaction costs)
+- **Deep RL Training**: PPO-based agents with custom Gym environments
+- **Microsecond Execution Modeling**: Realistic order book simulation with spread/slippage/fees
+- **Full Pipeline**: Polygon.io data → Feature engineering → Model training → Live paper trading via Alpaca
 
 ### Key Technical Achievements
 
@@ -36,7 +36,7 @@ This repository showcases a comprehensive quantitative trading system I built ov
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -76,7 +76,7 @@ This repository showcases a comprehensive quantitative trading system I built ov
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ml_options_engine_min/
@@ -136,7 +136,7 @@ ml_options_engine_min/
 
 ---
 
-## 🚀 Key Components
+## Key Components
 
 ### 1. Deep RL Trading Engine (`code/gld_drl_alpha/`)
 
@@ -214,7 +214,7 @@ features = [
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### Core ML & Quant
 - **PyTorch 2.0+**: Neural network training (policy networks, value functions)
@@ -234,7 +234,7 @@ features = [
 - **Python 3.8+**: Primary language
 
 ---
-## 📊 Performance Metrics
+## Performance Metrics
 
 ### Demonstration Results (Synthetic Data)
 
@@ -257,7 +257,7 @@ features = [
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 
@@ -305,7 +305,7 @@ python run_bayn_5m_alpaca.py
 
 ---
 
-## 🔬 Research Methodology
+## Research Methodology
 
 ### Walk-Forward Validation Approach
 
@@ -336,7 +336,7 @@ QuantConnect Validation → Paper Trading → (Production Ready)
 
 ---
 
-## 🎯 Design Philosophy
+## Design Philosophy
 
 ### Prioritizing Production Readiness
 
@@ -357,7 +357,7 @@ This repository demonstrates **ML engineering process** while protecting proprie
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Multi-agent RL for portfolio allocation across assets
 - [ ] Transfer learning from crypto markets to equities
@@ -368,7 +368,7 @@ This repository demonstrates **ML engineering process** while protecting proprie
 
 ---
 
-## 📚 References & Inspiration
+## References & Inspiration
 
 - **Reinforcement Learning**: Sutton & Barto, "Reinforcement Learning: An Introduction"
 - **Quantitative Trading**: Ernest Chan, "Algorithmic Trading"
@@ -377,34 +377,19 @@ This repository demonstrates **ML engineering process** while protecting proprie
 
 ---
 
-## 📝 License
+## About Me
 
-MIT License - feel free to use this code for educational purposes.
-
----
-
-## 👤 About Me
-
-I'm a quantitative researcher and ML engineer with expertise in:
+I'm a researcher and ML engineer with interest in:
 - Deep reinforcement learning for sequential decision-making
-- High-frequency trading system architecture
+- Trading system architecture
 - Production ML deployment and monitoring
 
 This project represents my approach to building **robust, production-ready trading systems** with proper ML engineering practices. While the alpha signals are abstracted, the engineering methodology is fully transparent and demonstrates best practices learned from real-world trading system development.
 
 **Connect with me:**
-- GitHub: [github.com/aliasfar7](https://github.com/aliasfar7)
-- LinkedIn: [Add your LinkedIn URL]
-- Email: [Add your email if comfortable]
-
----
-
-## 🙏 Acknowledgments
-
-- **QuantConnect** for providing an excellent backtesting platform
-- **Alpaca** for commission-free paper trading API
-- **Polygon.io** for reliable market data
-- **Stable-Baselines3** team for robust RL implementations
+- GitHub: (https://github.com/aliasfar7)
+- LinkedIn: (https://www.linkedin.com/in/ali-asfar-22571228a/)
+- Email: aliasfar2006@gmail.com
 
 ---
 
