@@ -364,15 +364,6 @@ This repository demonstrates **ML engineering process** while protecting proprie
 
 ---
 
-## 📚 References & Inspiration
-
-- **Reinforcement Learning**: Sutton & Barto, "Reinforcement Learning: An Introduction"
-- **Quantitative Trading**: Ernest Chan, "Algorithmic Trading"
-- **Market Microstructure**: Maureen O'Hara, "Market Microstructure Theory"
-- **Deep RL for Trading**: "Deep Reinforcement Learning for Trading" (arXiv:1911.10107)
-
----
-
 ## 📝 License
 
 MIT License - feel free to use this code for educational purposes.
@@ -381,17 +372,17 @@ MIT License - feel free to use this code for educational purposes.
 
 ## 👤 About Me
 
-I'm a quantitative researcher and ML engineer with expertise in:
+I'm a researcher and ML engineer with interest in:
 - Deep reinforcement learning for sequential decision-making
-- High-frequency trading system architecture
+- Trading system architecture
 - Production ML deployment and monitoring
 
 This project represents my approach to building **robust, production-ready trading systems** with proper ML engineering practices. While the alpha signals are abstracted, the engineering methodology is fully transparent and demonstrates best practices learned from real-world trading system development.
 
 **Connect with me:**
-- GitHub: [github.com/aliasfar7](https://github.com/aliasfar7)
-- LinkedIn: [Add your LinkedIn URL]
-- Email: [Add your email if comfortable]
+- GitHub: (https://github.com/aliasfar7)
+- LinkedIn: (https://www.linkedin.com/in/ali-asfar-22571228a/)
+- Email: (aliasfar2006@gmail.com)
 
 ---
 
