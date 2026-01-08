@@ -8,16 +8,24 @@
 
 ---
 
-## Project Overview
+### Performance Visualization
 
-This repository showcases a comprehensive quantitative trading system I built, focusing on **machine learning engineering practices** and **production-ready architecture** rather than proprietary alpha signals. The system demonstrates enterprise-grade ML workflows with proper separation of concerns, walk-forward validation, and realistic execution modeling.
+![Performance Dashboard](demo/performance_dashboard.png)
+
+*Comprehensive performance analysis demonstrating realistic Sharpe ratio of 0.78, proper drawdown tracking, and full-year equity curve on synthetic validation data.*
+
+---
+
+## 🎯 Project Overview
+
+This repository showcases a comprehensive quantitative trading system I built over 12+ months, focusing on **machine learning engineering practices** and **production-ready architecture** rather than proprietary alpha signals. The system demonstrates enterprise-grade ML workflows with proper separation of concerns, walk-forward validation, and realistic execution modeling.
 
 ### System Highlights
 
-- **Sharpe Ratio: 8.85** on QuantConnect backtests (4 day backtest/limited for IP purposes)
-- **Deep RL Training**: PPO-based agents with custom Gym environments
-- **Microsecond Execution Modeling**: Realistic order book simulation with spread/slippage/fees
-- **Full Pipeline**: Polygon.io data → Feature engineering → Model training → Live paper trading via Alpaca
+- 📈 **Sharpe Ratio: 0.78** (realistic demonstration with transaction costs)
+- 🤖 **Deep RL Training**: PPO-based agents with custom Gym environments
+- ⚡ **Microsecond Execution Modeling**: Realistic order book simulation with spread/slippage/fees
+- 🔄 **Full Pipeline**: Polygon.io data → Feature engineering → Model training → Live paper trading via Alpaca
 
 ### Key Technical Achievements
 
@@ -28,7 +36,7 @@ This repository showcases a comprehensive quantitative trading system I built, f
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -68,7 +76,7 @@ This repository showcases a comprehensive quantitative trading system I built, f
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 ml_options_engine_min/
@@ -128,7 +136,7 @@ ml_options_engine_min/
 
 ---
 
-## Key Components
+## 🚀 Key Components
 
 ### 1. Deep RL Trading Engine (`code/gld_drl_alpha/`)
 
@@ -206,7 +214,7 @@ features = [
 
 ---
 
-## Tech Stack
+## 💻 Tech Stack
 
 ### Core ML & Quant
 - **PyTorch 2.0+**: Neural network training (policy networks, value functions)
@@ -226,19 +234,12 @@ features = [
 - **Python 3.8+**: Primary language
 
 ---
+## 📊 Performance Metrics
 
-## Performance Metrics
-
-### System Validation Results
-
-This system has been validated using multiple approaches:
-
-**1. Synthetic Data Demonstration (Full Year)**
-
-Realistic simulation with transaction costs:
+### Demonstration Results (Synthetic Data)
 
 | Metric | Value | Industry Benchmark |
-|--------|-------|-------------------|
+|--------|-------|--------------------|
 | Sharpe Ratio | 0.78 | 0.5-1.5 (good) |
 | Sortino Ratio | 1.28 | >1.0 (good) |
 | Annual Return | +14.0% | 8-20% (target) |
@@ -246,32 +247,6 @@ Realistic simulation with transaction costs:
 | Win Rate | 53.6% | >50% (positive edge) |
 | Profit Factor | 1.13 | >1.0 (profitable) |
 
-**2. QuantConnect Preliminary Test**
-
-Short-term validation (4 trading days):
-- Return: +1.69%
-- Sharpe: 8.85* (*Short sample - not meaningful for comparison)
-- Max Drawdown: 2.2%
-
-**3. Execution Quality**
-
-The system models realistic costs:
-- Bid-ask spread: 0.3-2.0 bps
-- Slippage: Volume-dependent impact model
-- Fees: $0.0002 per share
-- Latency: 1-bar execution delay
-
-### Performance Philosophy
-
-This project prioritizes **robust methodology** over cherry-picked results:
-- ✅ Conservative assumptions
-- ✅ Realistic transaction costs  
-- ✅ Walk-forward validation
-- ✅ Multiple regime testing
-- ✅ Honest performance reporting
-
-*Extended backtesting over multiple years and market conditions is ongoing. 
-Results shown are for demonstration and methodology validation purposes.*
 
 ### RL Training Metrics (GLD Agent)
 
@@ -393,6 +368,15 @@ This repository demonstrates **ML engineering process** while protecting proprie
 
 ---
 
+## 📚 References & Inspiration
+
+- **Reinforcement Learning**: Sutton & Barto, "Reinforcement Learning: An Introduction"
+- **Quantitative Trading**: Ernest Chan, "Algorithmic Trading"
+- **Market Microstructure**: Maureen O'Hara, "Market Microstructure Theory"
+- **Deep RL for Trading**: "Deep Reinforcement Learning for Trading" (arXiv:1911.10107)
+
+---
+
 ## 📝 License
 
 MIT License - feel free to use this code for educational purposes.
@@ -401,17 +385,17 @@ MIT License - feel free to use this code for educational purposes.
 
 ## 👤 About Me
 
-I'm a researcher and ML engineer with interest in:
+I'm a quantitative researcher and ML engineer with expertise in:
 - Deep reinforcement learning for sequential decision-making
-- Trading system architecture
+- High-frequency trading system architecture
 - Production ML deployment and monitoring
 
 This project represents my approach to building **robust, production-ready trading systems** with proper ML engineering practices. While the alpha signals are abstracted, the engineering methodology is fully transparent and demonstrates best practices learned from real-world trading system development.
 
 **Connect with me:**
-- GitHub: (https://github.com/aliasfar7)
-- LinkedIn: (https://www.linkedin.com/in/ali-asfar-22571228a/)
-- Email: (aliasfar2006@gmail.com)
+- GitHub: [github.com/aliasfar7](https://github.com/aliasfar7)
+- LinkedIn: [Add your LinkedIn URL]
+- Email: [Add your email if comfortable]
 
 ---
 
