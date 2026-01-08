@@ -10,11 +10,11 @@
 
 ## 🎯 Project Overview
 
-This repository showcases a comprehensive quantitative trading system I built over 12+ months, focusing on **machine learning engineering practices** and **production-ready architecture** rather than proprietary alpha signals. The system demonstrates enterprise-grade ML workflows with proper separation of concerns, walk-forward validation, and realistic execution modeling.
+This repository showcases a comprehensive quantitative trading system I built, focusing on **machine learning engineering practices** and **production-ready architecture** rather than proprietary alpha signals. The system demonstrates enterprise-grade ML workflows with proper separation of concerns, walk-forward validation, and realistic execution modeling.
 
 ### System Highlights
 
-- 📈 **Sharpe Ratio: 8.85** on QuantConnect backtests (2024 market data)
+- 📈 **Sharpe Ratio: 8.85** on QuantConnect backtests (4 day backtest/limited for IP purposes)
 - 🤖 **Deep RL Training**: PPO-based agents with custom Gym environments
 - ⚡ **Microsecond Execution Modeling**: Realistic order book simulation with spread/slippage/fees
 - 🔄 **Full Pipeline**: Polygon.io data → Feature engineering → Model training → Live paper trading via Alpaca
